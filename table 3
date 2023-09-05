@@ -1,29 +1,30 @@
 <table class="table">
   <thead>
     <tr>
-      <th scope="col">#</th>
+      <th scope="col">My Favorite Golfers</th>
       <th scope="col">First</th>
       <th scope="col">Last</th>
-      <th scope="col">Handle</th>
+      <th scope="col">My Rank</th>
     </tr>
   </thead>
   <tbody class="table-group-divider">
     <tr>
       <th scope="row">1</th>
-      <td>Mark</td>
-      <td>Otto</td>
-      <td>@mdo</td>
+      <td>Tiger</td>
+      <td>Woods</td>
+      <td>1</td>
     </tr>
     <tr>
       <th scope="row">2</th>
-      <td>Jacob</td>
-      <td>Thornton</td>
-      <td>@fat</td>
+      <td>Justin</td>
+      <td>Thomas</td>
+      <td>2</td>
     </tr>
     <tr>
       <th scope="row">3</th>
-      <td colspan="2">Larry the Bird</td>
-      <td>@twitter</td>
+      <td>Jordan</td>
+      <td>Spieth</td>
+      <td>3</td>
     </tr>
   </tbody>
 </table>
