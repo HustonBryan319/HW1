@@ -30,23 +30,3 @@
 </table>
 
 
-<!DOCTYPE html>
-<html>
-<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-<body>
-
-<div id="myPlot" style="width:100%;max-width:700px"></div>
-
-<script>
-const xArray = ["Dirk Nowitzki", "Kobe Bryant", "Shaq O'Niel"];
-const yArray = [31560, 33643, 28596];
-
-const layout = {title:"Career Points"};
-
-const data = [{labels:xArray, values:yArray, type:"pie"}];
-
-Plotly.newPlot("myPlot", data, layout);
-</script>
-
-</body>
-</html>
