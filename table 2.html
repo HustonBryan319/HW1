@@ -1,21 +1,15 @@
+let speech = new p5.Speech();
 
+function setup() {
+  createCanvas(200, 200);
 
-<!DOCTYPE html>
-<html>
-<body>
-<!DOCTYPE html>
-<html>
-<body>
+  background(32);
+  fill(255);
+  textSize(36);
+  textAlign(CENTER);
+  text('Click here!', width / 2, height / 2);
+}
 
-<h2>Date</h2>
-
-<p id="demo"></p>
-
-<script>
-const d = new Date("2023-12-08");
-document.getElementById("demo").innerHTML = d;
-</script>
-
-</body>
-</html>
-
+function mouseClicked() {
+  speech.speak('Happy coding!');
+}
