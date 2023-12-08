@@ -1,15 +1,14 @@
-let speech = new p5.Speech();
-
-function setup() {
-  createCanvas(200, 200);
-
-  background(32);
-  fill(255);
-  textSize(36);
-  textAlign(CENTER);
-  text('Click here!', width / 2, height / 2);
-}
-
-function mouseClicked() {
-  speech.speak('Happy coding!');
-}
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Moment.js Example</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.19.4/moment-with-locales.js"></script>
+    <script>
+      document.write(moment().locale('en').format('LLLL'));
+      document.write('<br/><br/>');
+      document.write(moment().locale('es').format('LLLL'));
+    </script>
+  </head>
+  <body>
+  </body>
+</html>
